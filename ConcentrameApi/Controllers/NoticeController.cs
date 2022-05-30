@@ -14,7 +14,7 @@ namespace ConcentrameApi.Controllers
         public ActionResult<IEnumerable<Notice>> Get()
         {
             if (DbContext.Notice.Any())
-                return Ok(DbContext.Notice);
+                return Ok(DbContext.Notice.OrderByDescending(x => x.Id));
             else
                 return NoContent();
         }

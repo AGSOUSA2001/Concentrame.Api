@@ -29,6 +29,10 @@ namespace ConcentrameApi
             services.AddControllers();
             services.AddSwaggerGen();
             DbContext.InitialLoad();
+            services.AddCors(options => options.AddPolicy("AllowWebApp",
+            builder => builder.AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyOrigin()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,6 +42,8 @@ namespace ConcentrameApi
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors("AllowWebApp");
 
             app.UseSwagger();
 
@@ -53,6 +59,8 @@ namespace ConcentrameApi
             {
                 endpoints.MapControllers();
             });
+
+            
         }
     }
 }

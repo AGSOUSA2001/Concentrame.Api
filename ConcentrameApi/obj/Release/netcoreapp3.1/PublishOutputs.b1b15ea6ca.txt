@@ -1,0 +1,11 @@
+C:\Users\SocialOncePC\Desktop\ConcentrameApi\ConcentrameApi\obj\Release\netcoreapp3.1\PubTmp\Out\ConcentrameApi.exe
+C:\Users\SocialOncePC\Desktop\ConcentrameApi\ConcentrameApi\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+C:\Users\SocialOncePC\Desktop\ConcentrameApi\ConcentrameApi\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+C:\Users\SocialOncePC\Desktop\ConcentrameApi\ConcentrameApi\obj\Release\netcoreapp3.1\PubTmp\Out\ConcentrameApi.dll
+C:\Users\SocialOncePC\Desktop\ConcentrameApi\ConcentrameApi\obj\Release\netcoreapp3.1\PubTmp\Out\ConcentrameApi.deps.json
+C:\Users\SocialOncePC\Desktop\ConcentrameApi\ConcentrameApi\obj\Release\netcoreapp3.1\PubTmp\Out\ConcentrameApi.runtimeconfig.json
+C:\Users\SocialOncePC\Desktop\ConcentrameApi\ConcentrameApi\obj\Release\netcoreapp3.1\PubTmp\Out\ConcentrameApi.pdb
+C:\Users\SocialOncePC\Desktop\ConcentrameApi\ConcentrameApi\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\SocialOncePC\Desktop\ConcentrameApi\ConcentrameApi\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\SocialOncePC\Desktop\ConcentrameApi\ConcentrameApi\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\SocialOncePC\Desktop\ConcentrameApi\ConcentrameApi\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
