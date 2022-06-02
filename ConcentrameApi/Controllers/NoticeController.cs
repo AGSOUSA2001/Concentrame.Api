@@ -41,7 +41,7 @@ namespace ConcentrameApi.Controllers
         public ActionResult<IEnumerable<Notice>> GetNoticesByCategoryId(string category)
         {
             if (DbContext.Notice.Any(n => n.Category == category))
-                return Ok(DbContext.Notice.Where(n => n.Category == category));
+                return Ok(DbContext.Notice.OrderByDescending(x => x.Id).Where(n => n.Category == category));
             else
                 return NoContent();
         }

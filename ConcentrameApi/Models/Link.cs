@@ -9,6 +9,6 @@ namespace ConcentrameApi.Models
         [Required]
         public string Title { get; set; }
         [Required]
-        public string UrL { get; set; }
+        public string Url { get; set; }
     }
 }

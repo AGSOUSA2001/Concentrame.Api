@@ -11,6 +11,14 @@ namespace ConcentrameApi.Models
         [Required]
         public string Category { get; set; }
         [Required]
-        public string UrL { get; set; }
+        public string Url { get; set; }
+        [Required]
+        public string Date { get; set; }
+        [Required]
+        public string Paragraph1 { get; set; }
+        [Required]
+        public string Paragraph2 { get; set; }
+        [Required]
+        public string Paragraph3 { get; set; }
     }
 }
