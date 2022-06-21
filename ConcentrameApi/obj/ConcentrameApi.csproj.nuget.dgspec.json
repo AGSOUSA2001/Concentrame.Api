@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SocialOncePC\\Desktop\\ConcentrameApi\\ConcentrameApi\\ConcentrameApi.csproj": {}
+    "C:\\Users\\SocialOncePC\\Desktop\\newApi\\ConcentrameApi\\ConcentrameApi\\ConcentrameApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SocialOncePC\\Desktop\\ConcentrameApi\\ConcentrameApi\\ConcentrameApi.csproj": {
+    "C:\\Users\\SocialOncePC\\Desktop\\newApi\\ConcentrameApi\\ConcentrameApi\\ConcentrameApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SocialOncePC\\Desktop\\ConcentrameApi\\ConcentrameApi\\ConcentrameApi.csproj",
+        "projectUniqueName": "C:\\Users\\SocialOncePC\\Desktop\\newApi\\ConcentrameApi\\ConcentrameApi\\ConcentrameApi.csproj",
         "projectName": "ConcentrameApi",
-        "projectPath": "C:\\Users\\SocialOncePC\\Desktop\\ConcentrameApi\\ConcentrameApi\\ConcentrameApi.csproj",
+        "projectPath": "C:\\Users\\SocialOncePC\\Desktop\\newApi\\ConcentrameApi\\ConcentrameApi\\ConcentrameApi.csproj",
         "packagesPath": "C:\\Users\\SocialOncePC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SocialOncePC\\Desktop\\ConcentrameApi\\ConcentrameApi\\obj\\",
+        "outputPath": "C:\\Users\\SocialOncePC\\Desktop\\newApi\\ConcentrameApi\\ConcentrameApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SocialOncePC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,29 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.AspNetCore.Cors": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
