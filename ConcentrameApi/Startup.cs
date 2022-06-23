@@ -17,6 +17,7 @@ namespace ConcentrameApi
 {
     public class Startup
     {
+        readonly string TestOrigins = "_testOrigins";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -33,6 +34,16 @@ namespace ConcentrameApi
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddSwaggerGen();
+            services.AddCors(options =>
+            {
+                options.AddPolicy(TestOrigins,
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                            .AllowAnyMethod()
+                            .AllowAnyHeader();
+                    });
+            });
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddCors(options => options.AddPolicy("AllowWebApp",
@@ -44,6 +55,7 @@ namespace ConcentrameApi
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors(TestOrigins);
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
